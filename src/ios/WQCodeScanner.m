@@ -230,7 +230,7 @@
     [self.view addSubview:self.titleLabel];
     
     //返回
-    UIButton *backButton = [[UIButton alloc] initWithFrame:CGRectMake(0, 20, 44, 44)];
+    UIButton *backButton = [[UIButton alloc] initWithFrame:CGRectMake(10, 27, 27, 27)];
     [backButton setImage:[UIImage imageNamed:@"fanhui.png"] forState:UIControlStateNormal];
     [backButton addTarget:self action:@selector(pressBackButton) forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:backButton];
